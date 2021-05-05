@@ -10,10 +10,22 @@ class HomeAutomation:
             self.link = link
             self.firebase_obj = f.FirebaseApplication(self.link, None)
             print(self.pull(child = '/'))
+            print('''
+from multivicks.crud import HomeAutomation
+link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
+obj = HomeAutomation(link)
+
+f = obj.show()
+f = obj.pull()
+f = obj.push(1)
+f = obj.remove()
+
+print(f)
+            ''')
 
         except Exception as e:
             print(e)
-            print('try: pip install imvickykumar999')
+            print('pip install --upgrade imvickykumar999')
 
     def show(self):
         return self.link
@@ -31,13 +43,13 @@ class HomeAutomation:
         return self.pull(child = '/')
 
 
-link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
-obj = HomeAutomation(link)
+# link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
+# obj = HomeAutomation(link)
 
 # f = obj.show()
-f = obj.pull()
+# f = obj.pull()
 # f = obj.push(1)
 # f = obj.remove()
 
-print(f)
+# print(f)
 # input('Press Enter to Exit...')

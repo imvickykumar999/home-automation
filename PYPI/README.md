@@ -5,7 +5,7 @@
   echo print('hello') > main.py
 
 
-![image](https://user-images.githubusercontent.com/50515418/116424009-cd519480-a85e-11eb-943f-e566d49bad09.png)
+![image](pypi.jpg)
 
 ## CMD...
 
