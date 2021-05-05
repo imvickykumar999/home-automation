@@ -31,13 +31,13 @@ class HomeAutomation:
         return self.pull(child = '/')
 
 
-link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
-obj = HomeAutomation(link)
+# link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
+# obj = HomeAutomation(link)
 
 # f = obj.show()
-f = obj.pull()
+# f = obj.pull()
 # f = obj.push(1)
 # f = obj.remove()
 
-print(f)
+# print(f)
 # input('Press Enter to Exit...')
