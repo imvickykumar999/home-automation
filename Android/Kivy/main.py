@@ -29,7 +29,7 @@ from kivy.uix.label import Label
 # A Gridlayout with a label a switch
 # A class which contains all stuff about the switch
 
-from base import HomeAutomation
+from multivicks.base import HomeAutomation
 link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
 obj = HomeAutomation(link)
 
