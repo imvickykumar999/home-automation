@@ -28,52 +28,56 @@ from kivy.uix.label import Label
 
 # A Gridlayout with a label a switch
 # A class which contains all stuff about the switch
+
+from base import HomeAutomation
+link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
+obj = HomeAutomation(link)
+
 class SimpleSwitch(GridLayout):
 
-	# Defining __init__ constructor
-	def __init__(self, **kwargs):
+    # Defining __init__ constructor
+    def __init__(self, **kwargs):
 
-		# super function can be used to gain access
-		# to inherited methods from a parent or sibling class
-		# that has been overwritten in a class object.
-		super(SimpleSwitch, self).__init__(**kwargs)
+        # super function can be used to gain access
+        # to inherited methods from a parent or sibling class
+        # that has been overwritten in a class object.
+        super(SimpleSwitch, self).__init__(**kwargs)
 
-		# no of coloumns
-		self.cols = 2
+        # no of coloumns
+        self.cols = 2
 
-		# Adding label to the Switch
-		self.add_widget(Label(text ="Switch"))
+        # Adding label to the Switch
+        self.add_widget(Label(text ="Switch"))
 
-		# Initially switch is Off i.e active = False
-		self.settings_sample = Switch(active = False)
+        # Initially switch is Off i.e active = False
+        self.settings_sample = Switch(active = False)
 
-		# Add widget
-		self.add_widget(self.settings_sample)
+        # Add widget
+        self.add_widget(self.settings_sample)
 
-		# Arranging a callback to the switch
-		# using bing function
-		self.settings_sample.bind(active = switch_callback)
+        # Arranging a callback to the switch
+        # using bing function
+        self.settings_sample.bind(active = switch_callback)
 
 # Callback for the switch state transition
 # Defining a Callback function
 # Contains Two parameter switchObject, switchValue
 def switch_callback(switchObject, switchValue):
 
-	# Switch value are True and False
-	if(switchValue):
-		print('Switch is ON:):):)')
-	else:
-		print('Switch is OFF:(:(:(')
-
+    # Switch value are True and False
+    if(switchValue):
+        obj.push(1)
+    else:
+        obj.push(0)
 
 # Defining the App Class
 class SwitchApp(App):
-	# define build function
-	def build(self):
-		# retuen the switch class
-		return SimpleSwitch()
+    # define build function
+    def build(self):
+        # retuen the switch class
+        return SimpleSwitch()
 
 
 # Run the kivy app
 if __name__ == '__main__':
-	SwitchApp().run()
+    SwitchApp().run()
