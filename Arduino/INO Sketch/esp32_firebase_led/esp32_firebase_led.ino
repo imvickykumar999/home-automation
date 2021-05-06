@@ -10,7 +10,7 @@ int ledpin = 2;
 #define WIFI_PASSWORD "oyevicks"
 
 #define FIREBASE_HOST "home-automation-336c0-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "Gb3UMfmGbxoFT68kFKatNy8UzcZ79FzX77GBCqUo"
+#define FIREBASE_AUTH "*************************************************"
 
 FirebaseData firebaseData;
 
