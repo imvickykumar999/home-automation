@@ -12,7 +12,7 @@ class HomeAutomation:
             print(self.pull(child = '/'))
             print('''
 from multivicks.crud import HomeAutomation
-link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
+link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
 obj = HomeAutomation(link)
 
 f = obj.show()
@@ -43,7 +43,8 @@ print(f)
         return self.pull(child = '/')
 
 
-# link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
+# from multivicks.crud import HomeAutomation
+# link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
 # obj = HomeAutomation(link)
 
 # f = obj.show()

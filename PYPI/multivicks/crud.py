@@ -3,17 +3,29 @@
 # C:\Users\Vicky\anaconda3\Lib\site-packages\vicksbase
 
 class HomeAutomation:
-    def __init__(self, link):
+    def __init__(self, link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'):
 
         try:
             from vicksbase import firebase as f
             self.link = link
             self.firebase_obj = f.FirebaseApplication(self.link, None)
             print(self.pull(child = '/'))
+            print('''
+from multivicks.crud import HomeAutomation
+link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
+obj = HomeAutomation(link)
+
+f = obj.show()
+f = obj.pull()
+f = obj.push(1)
+f = obj.remove()
+
+print(f)
+            ''')
 
         except Exception as e:
             print(e)
-            print('try: pip install imvickykumar999')
+            print('pip install --upgrade imvickykumar999')
 
     def show(self):
         return self.link
@@ -31,7 +43,8 @@ class HomeAutomation:
         return self.pull(child = '/')
 
 
-# link = 'https://led-blink-wifi-default-rtdb.firebaseio.com/'
+# from multivicks.crud import HomeAutomation
+# link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
 # obj = HomeAutomation(link)
 
 # f = obj.show()
