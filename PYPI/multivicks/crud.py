@@ -11,6 +11,7 @@ class HomeAutomation:
             self.firebase_obj = f.FirebaseApplication(self.link, None)
             print(self.pull(child = '/'))
             print('''
+
 from multivicks.crud import HomeAutomation
 link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
 obj = HomeAutomation(link)
@@ -25,7 +26,9 @@ print(f)
 
         except Exception as e:
             print(e)
+            print('Run these 2 command on cmd...')
             print('pip install --upgrade imvickykumar999')
+            print('pip uninstall firebase')
 
     def show(self):
         return self.link
