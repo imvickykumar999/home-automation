@@ -4,8 +4,7 @@
 ## Create new file in cmd
   echo print('hello') > main.py
 
-
-![image](pypi.jpg)
+![image](https://user-images.githubusercontent.com/50515418/117346574-8e0dee00-aec5-11eb-84f7-41a18b8bf852.png)
 
 ## CMD...
 

@@ -1,7 +1,7 @@
 Metadata-Version: 1.0
 Name: imvickykumar999
-Version: 0.0.6
-Summary: Website : https://github.com/imvickykumar999/home-automation
+Version: 0.0.7
+Summary: https://github.com/imvickykumar999/home-automation
 Home-page: https://imvickykumar999.herokuapp.com/
 Author: Vicky Kumar
 Author-email: UNKNOWN
@@ -13,7 +13,7 @@ Description: # Firebase-CRUD
           echo print('hello') > main.py
         
         
-        ![image](https://user-images.githubusercontent.com/50515418/116424009-cd519480-a85e-11eb-943f-e566d49bad09.png)
+        ![image](pypi.jpg)
         
         ## CMD...
         
