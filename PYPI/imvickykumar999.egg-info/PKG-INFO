@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: imvickykumar999
-Version: 0.0.7
+Version: 0.0.8
 Summary: https://github.com/imvickykumar999/home-automation
 Home-page: https://imvickykumar999.herokuapp.com/
 Author: Vicky Kumar
@@ -12,8 +12,7 @@ Description: # Firebase-CRUD
         ## Create new file in cmd
           echo print('hello') > main.py
         
-        
-        ![image](pypi.jpg)
+        ![image](https://user-images.githubusercontent.com/50515418/117346574-8e0dee00-aec5-11eb-84f7-41a18b8bf852.png)
         
         ## CMD...
         
