@@ -4,10 +4,6 @@
 ## Create new file in cmd
   echo print('hello') > main.py
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 6163a11f25d64aa9b001e726beaedfce3336190f
 ![image](https://user-images.githubusercontent.com/50515418/117346574-8e0dee00-aec5-11eb-84f7-41a18b8bf852.png)
 
 ## CMD...
