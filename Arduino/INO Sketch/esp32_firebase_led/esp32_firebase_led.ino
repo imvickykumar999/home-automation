@@ -7,7 +7,7 @@
 int ledpin = 2;
 
 #define WIFI_SSID "Vicky"
-#define WIFI_PASSWORD "oyevicks"
+#define WIFI_PASSWORD "********"
 
 #define FIREBASE_HOST "home-automation-336c0-default-rtdb.firebaseio.com"
 #define FIREBASE_AUTH "*************************************************"
