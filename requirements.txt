@@ -27,3 +27,5 @@ flask-login
 Pillow==8.1.0
 urllib3==1.26.2
 Flask-QRcode==3.0.0
+numpy
+imvickykumar999

@@ -46,14 +46,14 @@ print(f)
         return self.pull(child = '/')
 
 
-# from multivicks.crud import HomeAutomation
-# link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
-# obj = HomeAutomation(link)
+from multivicks.crud import HomeAutomation
+link = 'https://home-automation-336c0-default-rtdb.firebaseio.com/'
+obj = HomeAutomation(link)
 
 # f = obj.show()
 # f = obj.pull()
-# f = obj.push(1)
+f = obj.push(1)
 # f = obj.remove()
 
-# print(f)
+print(f)
 # input('Press Enter to Exit...')
