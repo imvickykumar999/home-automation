@@ -1,6 +1,6 @@
 # [Home Automation](https://vixtest.herokuapp.com/)
 
-## >>> Run `heroku logs -t -a vixtest` in CMD to check errors in deployed site.
+## >>> Run `heroku logs -t -a vicks-home-automation` in CMD to check errors in deployed site.
 
 ## Control switch from website... worldwide !!!
 
