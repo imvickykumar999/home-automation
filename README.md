@@ -1,4 +1,4 @@
-# home-automation
+# [Home Automation](https://vixtest.herokuapp.com/)
 
 ## >>> Run `heroku logs -t -a vixtest` in CMD to check errors in deployed site.
 
