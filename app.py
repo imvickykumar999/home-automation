@@ -4,10 +4,11 @@ import requests
 from bs4 import BeautifulSoup as bs
 import os
 from flask import Flask, request, render_template
+from flask_socketio import SocketIO
 
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__)
-
+socketio = SocketIO(app)
 
 # -------------------------------------------------
 
@@ -93,4 +94,4 @@ def converted_iotled():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    socketio.run(app, debug=True)
