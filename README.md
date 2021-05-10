@@ -4,7 +4,9 @@
 
 ## Control switch from website... worldwide !!!
 
-## [Download my IOT App](https://github.com/imvickykumar999/home-automation/raw/main/Android/app-debug.apk)
+## Download my IOT App [(...click or Scan Below QR Code)](https://imvickykumar999.herokuapp.com/qrcode)
+
+[![image](https://user-images.githubusercontent.com/50515418/117675559-4b505c80-b1ca-11eb-80ac-650e322bb888.png)](https://github.com/imvickykumar999/home-automation/raw/main/Android/app-debug.apk)
 
 # Screenshots...
 
