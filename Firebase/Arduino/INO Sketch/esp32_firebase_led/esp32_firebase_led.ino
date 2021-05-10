@@ -4,13 +4,13 @@
 #include <WiFi.h>
 #include "FirebaseESP32.h"
 
-int ledpin = 2;
+int ledpin = 2; // Pin 2 is Inbuilt LED of ESP32
 
 #define WIFI_SSID "Vicky"
-#define WIFI_PASSWORD "********"
+#define WIFI_PASSWORD "*******"
 
 #define FIREBASE_HOST "home-automation-336c0-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "*************************************************"
+#define FIREBASE_AUTH "*********************************************"
 
 FirebaseData firebaseData;
 

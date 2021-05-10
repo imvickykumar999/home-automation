@@ -6,13 +6,13 @@
 #include "Adafruit_MQTT_Client.h"
 
 #define WLAN_SSID       "Vicky"
-#define WLAN_PASS       "oyevicks"
+#define WLAN_PASS       "*******"
 
 #define AIO_SERVER      "io.adafruit.com"
 #define AIO_SERVERPORT  1883                  
 
 #define AIO_USERNAME    "imvickykumar999"
-#define AIO_KEY         "aio_pJAx87e2Tqz1ooUEQx2BaX0LOi7Z"
+#define AIO_KEY         "***************************"
 
 int output=2;
 
@@ -49,6 +49,9 @@ pinMode(2,OUTPUT);
 
 uint32_t x=0;
 void loop() {
+   Serial.println("Running...");
+//   digitalWrite(2, HIGH);
+   
    MQTT_connect();
    Adafruit_MQTT_Subscribe *subscription;
 
@@ -70,9 +73,11 @@ void loop() {
 
 void MQTT_connect() {
   int8_t ret;
+  Serial.println("...trying to Connect");
 
   // Stop if already connected.
   if (mqtt.connected()) {
+    Serial.println("Connected");
     return;
   }
 
